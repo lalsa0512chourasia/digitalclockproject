@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color: #3E215D; */
+    background-color: #3D087B;
+    overflow: hidden;
+    zoom: 180%;
+}
+.head{
+margin-left: 75px;
+margin-top: -30px;
+width: 200px;
+}
+.container{
+    height: 160px;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    left: 10%;
+    top: 30px;
+}
+h1{
+    color: white;
+    font-family: fantasy;
+    font-weight: lighter;
+    position: relative;
+    top: 10px;
+left: 125px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    position: relative;
+    left: 12px;
+}
+
+.first img{
+    height: 32px;
+    width: 35px;
+    color: #3D087B;
+    padding: 10px 5px 12px 4px;
+ } 
+/* .first img::after{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}  */
+
+
+
+.text{
+    color: #3D087B;
+    /* font-size: 25px; */
+    text-align: center;
+    /* justify-content: center; */
+    position: relative;
+    bottom: 157px;
+   left: 64px;
+}
+.text p{
+    /* margin: 20px;
+    padding: 5px 15px 10px 5px; */
+    width: 111px;
+    padding: 10px 5px 25px 4px;
+ }
+ .set-time{
+    position: relative;
+    bottom: 273px;
+    left: 56%;
+} 
+form{
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+}
+
+form label{
+    margin-bottom: 10px;
+    margin-top: -43px;
+}
+
+#set{
+color: white;
+background-image: linear-gradient(to right, purple, lightpink);
+position: absolute;
+left: 85px;
+height: 30px;
+width: 165px;
+bottom: 125px;
+border-radius: 3px;
+border: 0px;
+}
+
+
+.upper{
+    height: 52px;
+     width: 250px;
+     position: absolute;
+     top: 8px;
+     left: 59%;
+  background-color: white;
+  border-radius: 8px;
+
+}
+
+
+.middle{
+    width: 79%;
+    height: 92%;
+    position: absolute;
+    top: 10px;
+    margin: auto;
+    /* opacity: 0.71; */
+    z-index: -1;
+    border-radius: 8px;
+    /* background-color: violet; */
+    left: 26px;
+    background: hsl(267, 45%, 74%);
+}
+
+.lower{
+    width: 75%;
+    height: 99%;
+    position: absolute;
+    top: 10px;
+    margin: auto;
+    /* opacity: 0.71; */
+    z-index: -2;
+    border-radius: 8px;
+    /* background-color: violet; */
+    left: 28px;
+    background: hsl(267, 50%, 56%);
+}
+
+
+.clock{
+    display: flex;
+    color: mediumorchid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hour{
+    margin: 3px;
+    background-color: #f0e9f7;
+    border-radius: 2px;
+    /* height: 36px;
+     width: 30px; */
+    padding: 8px;
+}
+#minute{
+    margin: 8px;
+    background-color: #f0e9f7;
+    border-radius: 2px;
+    /* height: 36px;
+    width: 30px; */
+    padding:8px;
+}
+#second{
+    margin: 8px;
+    background-color: #f0e9f7;
+    border-radius: 2px;
+    /* height: 36px;
+    width: 30px; */
+    padding:8px;
+}
+.clock span{
+    /* margin-top: 18px; */
+    color: black;
+    font-size: 20px;
+}
+.time{
+background-color: white;
+}
+#am{
+    background-color: #924ed6;
+   color: white;
+   padding: 6px;
+   border-radius: 2px;
+}
+
+#display{
+    color: white;
+    height: 55px;
+    width: 315px;
+    background-color: #B8B5FF;
+    /* position: relative; */
+    position: absolute;
+    left: 10%;
+    top: 75%;
+    border-radius: 5px;
+    padding: 4px 0px 4px 12px;
+    /* padding-left: 15px; */
+    /* display: none; */
+}
+
+#imgchange{
+    position: relative;
+    /* top: 50px; */
+    bottom: 129px;
+    left: 59%;
+    height: 250px;
+    width: 280px;
+    border-radius: 5px;
+/* background-image: url("./images/wakeupimg.PNG"); */
+background-position: center;
+background-size: cover;
+}
+
+
+
+
+/* 
+Data types in JS :
+
+There are two types of data type present in JS
+
+	a. Primitive
+	b. Non-Primitive
+
+
+
+Primitive : String, Number, Boolean, undefined, null, Symbol
+Non-Primitive : Objects */
+
+
+/* == & ===
+
+These two operators are comparison operators which will basically return the boolean values
+
+in case of == , it will only check the values of the two variables
+
+in case of ===, it will check the  values as well as the data type of both the variables
+
+
+if the condition matches then they return true, else they return false */
+
+
+
+/* 
+Q4Explain Implicit Type Coercion in javascript
+Explain Implicit Type Coercion in javascript, difference between type conversion and type coercion */
+/* ***answer */
+/* type conversion  = explicit;
+type coercion = implicit; */
